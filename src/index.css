@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar li a.active {
+  color: rgb(48, 48, 199);
+}
