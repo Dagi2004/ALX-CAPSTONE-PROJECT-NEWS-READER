@@ -15,7 +15,7 @@ const NewsCard = ({ categories, isDarkMode }) => {
     const fetchArticles = async () => {
       setLoading(true);
       try {
-        const apiKey = "qwPtSjDs7GfR4qPNf2yl5UZZyrdVYSU5zOhpmR5d";
+        const apiKey = "";
         const response = await axios.get(
           `https://api.thenewsapi.com/v1/news/top?api_token=${apiKey}&locale=us&limit=${limit}&page=${page}&categories=${categories}`
         );
